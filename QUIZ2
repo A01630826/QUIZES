@@ -1,0 +1,17 @@
+#Superpower
+
+a=int(input("ingrese un numero"))
+b=int(input("ingrese potencia"))
+
+def superpower (a,b):
+    z=a**b
+    return z
+
+print (superpower(a,b))
+
+#STARS
+
+a=int(input("ingrese numero de estrellas"))
+
+for _ in range(a):
+    print("*",end="")
